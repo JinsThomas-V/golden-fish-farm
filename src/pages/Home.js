@@ -1,4 +1,3 @@
-// src/pages/Home.js
 import React from "react";
 import NavbarComponent from "../components/Navbar";
 import Hero from "../components/Hero";

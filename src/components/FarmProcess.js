@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
 
 const FarmProcess = () => {
+  const baseURL = process.env.PUBLIC_URL;
   return (
     <div style={{ backgroundColor: "#fff8dc", padding: "60px 0" }}>
       <Container>
@@ -44,7 +45,7 @@ const FarmProcess = () => {
           </Col>
 
           {/* Video carousel on the right */}
-          <Col md={6} className="mt-4 mt-md-0">
+          {/* <Col md={6} className="mt-4 mt-md-0">
             <Carousel fade interval={4000}>
               <Carousel.Item>
                 <video
@@ -124,6 +125,25 @@ const FarmProcess = () => {
                   Your browser does not support the video tag.
                 </video>
               </Carousel.Item>
+            </Carousel>
+          </Col> */}
+          <Col md={6} className="mt-4 mt-md-0">
+            <Carousel fade interval={4000}>
+              {[1, 2, 3, 4, 5, 6].map((num) => (
+                <Carousel.Item key={num}>
+                  <video
+                    className="d-block w-100"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    style={{ borderRadius: "10px" }}
+                  >
+                    <source src={`${baseURL}/Videos/video${num}.mp4`} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </Carousel.Item>
+              ))}
             </Carousel>
           </Col>
         </Row>

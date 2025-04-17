@@ -10,28 +10,6 @@ const Contact = () => {
           Contact Us
         </h2>
         <Row className="g-4">
-          {/* <Col md={6}>
-            <Card className="h-100 shadow-sm">
-              <Card.Body>
-                <Card.Title><FaMapMarkerAlt className="me-2" />Our Address</Card.Title>
-                <Card.Text>
-                  Shinto's Golden Fish Farm<br />
-                  West Chalakudy, P O Chalakudy,<br />
-                  Thrissur District, Kerala,<br />
-                  India - 680307
-                </Card.Text>
-
-                <Card.Title className="mt-4"><FaWhatsapp className="me-2" />WhatsApp Inquiry</Card.Title>
-                <Button
-                  variant="success"
-                  href="https://wa.me/919745118737"
-                  target="_blank"
-                >
-                  Chat with Us on WhatsApp
-                </Button>
-              </Card.Body>
-            </Card>
-          </Col> */}
           <Col md={6}>
             <Card className="h-100 shadow-sm" id="whatsapp">
               <Card.Body>
