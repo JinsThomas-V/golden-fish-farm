@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fish-farm/static/css/main.ff45f900.css",
+    "main.js": "/fish-farm/static/js/main.610555ce.js",
+    "static/js/453.ce986817.chunk.js": "/fish-farm/static/js/453.ce986817.chunk.js",
+    "index.html": "/fish-farm/index.html",
+    "main.ff45f900.css.map": "/fish-farm/static/css/main.ff45f900.css.map",
+    "main.610555ce.js.map": "/fish-farm/static/js/main.610555ce.js.map",
+    "453.ce986817.chunk.js.map": "/fish-farm/static/js/453.ce986817.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff45f900.css",
+    "static/js/main.610555ce.js"
+  ]
+}
