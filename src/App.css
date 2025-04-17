@@ -1,0 +1,120 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.custom-navbar {
+  background-color: #d4f1f9 !important;
+  transition: background-color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #007bff; /* or any shade of blue you like */
+}
+
+.brand-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.2;
+  white-space: normal; /* allow wrapping */
+}
+
+@media (max-width: 768px) {
+  .brand-text {
+    font-size: 1rem;
+    text-align: left;
+  }
+}
+
+.hero-section {
+  padding-top: 90px; /* adjust if your navbar is taller or shorter */
+}
+
+.hero-slide {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .hero-slide {
+    height: 60vh;
+    padding: 1rem;
+  }
+
+  .carousel-caption h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-slide {
+    height: 50vh;
+    padding: 1rem;
+  }
+
+  .carousel-caption h1 {
+    font-size: 1.25rem !important;
+  }
+
+  .carousel-caption p {
+    font-size: 0.95rem !important;
+  }
+}
+
+
+:root {
+  scroll-padding-top: 90px; /* Match your navbar height or padding-top */
+}
+
+/* Optionally, ensure smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+
