@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/golden-fish-farm/static/css/main.ff45f900.css",
-    "main.js": "/golden-fish-farm/static/js/main.2536f19b.js",
+    "main.js": "/golden-fish-farm/static/js/main.1eab07bb.js",
     "static/js/453.ce986817.chunk.js": "/golden-fish-farm/static/js/453.ce986817.chunk.js",
     "index.html": "/golden-fish-farm/index.html",
     "main.ff45f900.css.map": "/golden-fish-farm/static/css/main.ff45f900.css.map",
-    "main.2536f19b.js.map": "/golden-fish-farm/static/js/main.2536f19b.js.map",
+    "main.1eab07bb.js.map": "/golden-fish-farm/static/js/main.1eab07bb.js.map",
     "453.ce986817.chunk.js.map": "/golden-fish-farm/static/js/453.ce986817.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff45f900.css",
-    "static/js/main.2536f19b.js"
+    "static/js/main.1eab07bb.js"
   ]
 }
