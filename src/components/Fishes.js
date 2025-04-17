@@ -180,7 +180,7 @@ const Fishes = () => {
     <div style={{ backgroundColor: "#f0f8ff", padding: "60px 0" }}>
       <Container>
         <h2 className="text-center mb-5" style={{ fontWeight: "bold" }}>
-          Available Fish Products
+          Available Fishes In Our Farm
         </h2>
         <Row>
           {fishData.map((fish, index) => (
